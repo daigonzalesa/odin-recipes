@@ -2,7 +2,7 @@
 
 A clean, visually engaging recipe website built as my first project for **The Odin Project Foundations**. While the focus was on core web structure, I took it a step further with custom CSS to create a modern, polished user experience.
 
-**[🔗 Live Demo] (https://daigonzalesa.github.io/odin-recipes)*/
+**[🔗 Live Demo] https://daigonzalesa.github.io/odin-recipes
 
 ## 🚀 Features
 * **Multi-Page Navigation:** Organized structure with a main homepage linking to specific recipe pages.
