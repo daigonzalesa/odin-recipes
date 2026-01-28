@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Print';
+  src: url('PrintClearly-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Blackjack';
+  src: url('blackjack-webfont.woff') format('woff');
+}
+
+ 
+ /* * {
+    outline: 3px solid red;
+    margin: 0;
+        } */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.titulo {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: 	#2c2b29;
+  padding: 30px;
+  gap: 20px;
+}
+
+.titulo img {
+  align-items: flex-start;
+}
+
+h1 {
+    font-family:'Blackjack';
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 img {
+  padding: 0;
+  border: 0;
+}
+
+.recetas {
+  font-family: 'Print';
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), 
+  url('images/apthapirevista.webp');
+  background-size: cover;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.receta {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+  padding: 40px 30px;
+}
+
+.dos {
+  background-color:#fdb827;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+ 
+}
+
+.tres {
+  background-color: 	#344f1d;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  
+}
+
+.uno {
+  background-color: #b91c16;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.receta img{
+  border: 0.5px solid#f9f1f1;
+}
+
